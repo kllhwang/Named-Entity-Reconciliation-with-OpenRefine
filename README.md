@@ -1,6 +1,6 @@
 Named-Entity-Reconciliation-with-OpenRefine
 =================================
-(kllhwang's note: This repository is largely a copy of the repository LCNAF-Named-Entity_Reconciliation by mcarruthers. It adds two new scripts to reconcile personal names to either Getty's Union List of Artist Names (PersonalNamesReconcile-ULAN.txt) or Wikidata records (PersonalNamesReconcile-Wikidata.txt).)
+(kllhwang's note: This repository is in large a copy of the repository LCNAF-Named-Entity_Reconciliation by mcarruthers. The only difference is the addition of two new scripts based on one of the original scripts below that reconcile personal names to either Getty's Union List of Artist Names (PersonalNamesReconcile-ULAN.txt) or Wikidata records (PersonalNamesReconcile-Wikidata.txt.)
 
 
 Using Google Refine and stable, publicly available APIs, the process automatically searches the Virtual International Authority File (VIAF) for matches to personal and corporate names, looks for a Library of Congress source authority record in the matching VIAF cluster, and extracts the authorized heading.  The end result is a dataset, exportable from Google Refine, with the corresponding authorized LCNAF heading paired with the original name heading, along with a link to the authority record on id.loc.gov
